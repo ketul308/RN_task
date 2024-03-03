@@ -9,7 +9,6 @@ const colors = {
     pink: "#ff8181",
     transparent: "transparent",
 
-
     font100: "#1e222b",
     font200: "#9096a4",
     font300: "#ebeef6",

@@ -12,11 +12,12 @@ const messages = Object.freeze({
     subTotal: "Subtotal",
     delivery: "Delivery",
     total: "Total",
+    reviews: "Reviews",
     shoppingCart: "Shopping Cart",
     emptyCart: "Your Shopping Cart is Empty!",
     proceedTocheckout: "Proceed To Checkout",
     FavouriteProducts: "Favourite Products",
-    noFavouriteProducts: "No Favourite Products",
+    noFavouriteProducts: "Your Favourite List is Empty!",
 
 });
 

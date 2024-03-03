@@ -1,9 +1,5 @@
 import { Heart, Cart, Home, Plus, BackArrow, Star, Minus, HalfStar, EmptyStar, NoFile } from "./SvgIcons/SvgsIcons"
 
-const All_Images = {
-
-}
-
 const All_Svgs = {
     Heart,
     Cart,
@@ -17,4 +13,4 @@ const All_Svgs = {
     NoFile,
 }
 
-export { All_Images, All_Svgs }
+export { All_Svgs }

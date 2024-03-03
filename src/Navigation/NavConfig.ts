@@ -9,7 +9,7 @@ enum AllScreens {
 }
 const screenOptions = {
     headerShown: false,
-    ...TransitionPresets.SlideFromRightIOS,
+    // ...TransitionPresets.SlideFromRightIOS,
     tabBarShowLabel: false
 };
 

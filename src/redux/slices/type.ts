@@ -6,7 +6,6 @@ export type state = {
     productList: Array<ProductItemType>
     productDetails: Array<ProductItemDeatilsType>
     cartList: Array<any>
-    error: string | undefined
 }
 
 type statusTypes = "idle" | "loading" | "succeeded" | "failed" 

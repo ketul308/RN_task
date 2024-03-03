@@ -5,6 +5,8 @@ import { RNStyles } from '../../Common/RNStyles'
 import { All_Svgs } from '../../Assets'
 import { metrix } from '../../Common/metrix'
 import { colors } from '../../Theme/colors'
+import { styles } from './styles'
+import { messages } from '../../Constants/Messages'
 
 
 const CustomStarRating = (props: Props) => {
@@ -13,7 +15,7 @@ const CustomStarRating = (props: Props) => {
     const halfStars = [...Array(5 - parseInt(rating?.toString() ?? 0)).keys()];
 
     return (
-        <View style={[RNStyles.flexRowCenter, { height: starSize, width: starSize * 5 }]}>
+        <View style={RNStyles.flexRow}>
             {
                 stars.map((num) => (
                     <All_Svgs.Star key={num.toString()} height={starSize} color={colors.darkYellow} />
@@ -31,6 +33,7 @@ const CustomStarRating = (props: Props) => {
                     )
                 })
             }
+            <Text style={styles.textLabel}>{rating?.toString() + " " + messages.reviews}</Text>
         </View>
     )
 }

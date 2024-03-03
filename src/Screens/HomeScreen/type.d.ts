@@ -18,7 +18,8 @@ export type ProductItemType = {
     stock: number,
     thumbnail: string,
     title: string
-    //extra properties
+
+    // extra properties for like and quantity
     isFavorite?: boolean
     quantity?: number
 
